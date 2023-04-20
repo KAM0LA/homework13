@@ -1,7 +1,13 @@
 .light *{
     background-color: #57B8FF;
 }
-.light .new-era-right button{
+.light .home-left .home-begin h3{
+    color: #ffff;
+}
+.light .new-era-left .home-era h3{
+    color: #ffff;
+}
+/* .light .new-era-right button{
     background: transparent;
     border: none;
-}
+} */
