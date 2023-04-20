@@ -1,0 +1,13 @@
+.dark *{
+    background-color: black;
+}
+.dark .home-begin h3{
+    color: #57B8FF;
+}
+.dark .home-era h3{
+    color: #57B8FF;
+}
+.dark .new-era-right button{
+    background: transparent;
+    border: none;
+}

@@ -1,0 +1,82 @@
+.new-era {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-era {
+  display: flex;
+  margin-bottom: 22px;
+}
+.home-era h3 {
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.home-era h3 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--color-link);
+}
+.new-era-left h1 {
+  /* margin-bottom: 38px;
+  margin-right: 550px; */
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: var(--color-link);
+}
+.new-era-left p {
+  /* margin-right: 500px; */
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+}
+.new-era-left button {
+  margin-top: 53px;
+  margin-right: 40px;
+  margin-bottom: 250px;
+  padding: 21px 34px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  text-transform: capitalize;
+  color: var(--color-link);
+  transition: 0.8;
+  -webkit-transition: 0.8;
+  -moz-transition: 0.8;
+  -ms-transition: 0.8;
+  -o-transition: 0.8;
+}
+.new-era-left button:hover {
+  color: var(--color-link);
+  background: var(--color-hover-button);
+}
+.new-era-right {
+  position: relative;
+  width: 100%;
+  background: url(../images/music.png);
+  background-repeat: no-repeat;
+}
+.new-era-right button {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+

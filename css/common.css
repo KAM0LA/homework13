@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1560px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+  background: #57B8FF;
+}
+:root{
+  --color-link: #ffff;
+  --color-hover:#FAC422;
+  --color-hover-button:#57B8FF;
+}

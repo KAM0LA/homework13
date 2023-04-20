@@ -1,0 +1,64 @@
+.home {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.home-begin {
+  display: flex;
+}
+.home-begin h3 {
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.home-left h3 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--color-link);
+}
+.home-left h1 {
+  margin-top: 21px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: capitalize;
+  color: var(--color-link);
+}
+.home-left p {
+  margin-top: 45px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #999999;
+}
+.home-left button {
+  margin-top: 53px;
+  margin-right: 40px;
+  margin-bottom: 250px;
+  padding: 21px 34px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+  background: transparent;
+  border:none;
+  text-transform: capitalize;
+  color: var(--color-link);
+  transition: 0.8;
+  -webkit-transition: 0.8;
+  -moz-transition: 0.8;
+  -ms-transition: 0.8;
+  -o-transition: 0.8;
+}
+.home-left button:hover {
+  color: var(--color-link);
+  background: var(--color-hover-button);
+}

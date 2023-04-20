@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.nav-link ul {
+  display: flex;
+}
+.nav-link li {
+  padding-top: 8px;
+  margin-left: 60px;
+  list-style-type: none;
+}
+.nav-link a {
+  font-family: "Orbitron";
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-link);
+}
+.nav-link a:hover{
+  color:var(--color-hover);
+}
+#dark-light {
+  cursor: pointer;
+  margin-right: 30px;
+  background: transparent;
+  border: none;
+}
+.button-link {
+  padding: 16px 30px;
+  border: 1px solid var(--color-link);
+  background: transparent;
+}
+
+.nav-button a {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-link);
+}
